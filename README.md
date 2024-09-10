@@ -12,7 +12,6 @@ $$∃x ((Kx ∧ ∀y (Ky → y = x)) ∧ Bx)$$
 
 
 ```rust
-    //∃x ((Kx ∧ ∀y (Ky → y = x)) ∧ Bx)
     let formula_king_bald = exists("x", and(
         and(
             predicate!("King", var!("x")),
