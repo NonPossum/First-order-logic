@@ -6,6 +6,11 @@ https://en.wikipedia.org/wiki/First-order_logic
 
 https://pl.wikipedia.org/wiki/Rachunek_predykat%C3%B3w_pierwszego_rz%C4%99du
 
+
+
+$$∃x ((Kx ∧ ∀y (Ky → y = x)) ∧ Bx)$$
+
+
 ```rust
     //∃x ((Kx ∧ ∀y (Ky → y = x)) ∧ Bx)
     let formula_king_bald = exists("x", and(
